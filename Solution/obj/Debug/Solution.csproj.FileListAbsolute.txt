@@ -1,0 +1,6 @@
+D:\project\Solution\Solution\bin\Solution.dll.config
+D:\project\Solution\Solution\bin\Solution.dll
+D:\project\Solution\Solution\bin\Solution.pdb
+D:\project\Solution\Solution\obj\Debug\Solution.csprojResolveAssemblyReference.cache
+D:\project\Solution\Solution\obj\Debug\Solution.dll
+D:\project\Solution\Solution\obj\Debug\Solution.pdb
