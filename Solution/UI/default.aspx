@@ -4,7 +4,7 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $('.testClass').click(function () {
-                alert("hello hello");
+                alert("test");
             });
         });
     </script>
