@@ -78,7 +78,45 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
+        
+        <!-- page content -->
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+        <!-- footer -->
+       <footer>
+           <div class="footer">
+               <div class="container-fluid">
+                   <div class="row">
+                      <div class="col-xs-12 col-md-8 footer-text">
+                        <h3>DNA English</h3>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                             eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+                      </div>
+                      <div class="col-xs-6 col-md-4 footer-text ">
+                          <h5>Contact info</h5>
+                          <div class="footer-line"></div>
+                          <div class="contact-row">
+                            <p><span class="glyphicon glyphicon-home text" aria-hidden="true"></span>Adress 1234</p>
+                          </div>
+                          <div class="contact-row">
+                            <p><span class="glyphicon glyphicon-globe text" aria-hidden="true"></span>Cambridge UK</p>
+                          </div>
+                          <div class="contact-row">
+                            <a href="mailto:info@dna.com?Subject=Hello%20test">
+                                    <span class="glyphicon glyphicon-envelope text" aria-hidden="true"></span>info@dna.com</a>
+                          </div>
+                          <div class="contact-row">
+                            <a href="tel:+44698659856"><span class="glyphicon glyphicon-phone-alt text" aria-hidden="true"></span>698 65 98 56</a>
+                          </div>                          
+                      </div>
+                    </div>
+               </div>
+           </div>
+       </footer>
     </div>
     </form>
 </body>

@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 header .container {
     margin-top: 50px;
 }
@@ -44,3 +48,31 @@ img.course:hover {
     -ms-filter: blur(2px);
     filter: blur(2px);
 }
+
+div .footer {
+    width: 100%;
+    margin-top:30px;
+    background-color:#F4F4F4;
+    min-height:200px;
+}
+
+div .footer-text {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+div .footer-line {
+    background-color:#333333;
+    height:1px;
+    width:50%;
+}
+
+span.text {
+    margin-right:6px;
+}
+
+div .contact-row {
+    margin-top:5px;
+}
+
+div.contact-row span { color: #000000; } 
