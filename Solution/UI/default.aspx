@@ -3,8 +3,15 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script type="text/javascript">
         $(document).ready(function () {
-            $('.testClass').click(function () {
-                alert("hkhkj");
+            $('.course-title').click(function () {
+                var params = { parameterX: 'hello from js side' };
+                var method = "GetData";
+
+                publicCallBack(method, params,
+                     function (response) {
+                         var names = response.d;
+                         alert(names);
+                     });                
             });
         });
     </script>
