@@ -11,7 +11,16 @@
                      function (response) {
                          var names = response.d;
                          alert(names);
-                     });                
+                     });
+
+                var person = {
+                    firstName: "Christophe",
+                    lastName: "Coenraets",
+                    blogURL: "http://coenraets.org"
+                };
+                var template = "<h1>{{firstName}} {{lastName}}</h1>Blog: {{blogURL}}";
+                var html = Mustache.to_html(template, person);
+                //$('#test').html(html);
             });
         });
     </script>
@@ -21,6 +30,7 @@
     <!-- Header -->
     <header>
         <div class="header-image">
+            <div id="test"></div>
             <div class="container">
                 <h1>The world´s best English courses online</h1>
                 <div class="input-group search-box">
@@ -44,7 +54,7 @@
         <div class="container-fluid courses-container">
             <div class="row">
               <div class="col-xs-6 col-md-4 course-wrapper">
-                <a href="#" class="">
+                <a href="course.aspx" class="">
                     <img src="../img/courses/course2.png" class="img-responsive center-block course img-rounded" alt="course image"/>
                 </a>                  
                 <span class="course-title">Course title</span></br>
