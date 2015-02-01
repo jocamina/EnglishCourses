@@ -11,13 +11,11 @@
     <meta name="description" content=""/>
     <meta name="author" content=""/>
 
-    <title>DNA English</title>
+    <title>DNA English</title>    
     
-    <!-- Bootstrap -->
     <link href="../css/bootstrap.css" rel="stylesheet"/>
     <link href="../css/public.css" rel="stylesheet"/>
 
-    <!-- Custom Fonts -->
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>    
@@ -50,7 +48,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">DNA English</a>
+                    <a class="navbar-brand page-scroll" href="default.aspx">DNA English</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -63,7 +61,7 @@
                             <a class="page-scroll" href="#services">Services</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#portfolio">Portfolio</a>
+                            <a class="page-scroll" href="Admin/default.aspx">Admin panel</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#about">About</a>

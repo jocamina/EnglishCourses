@@ -39,6 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -77,15 +78,44 @@
     <Content Include="js\bootstrap.js" />
     <Content Include="js\moustache.js" />
     <Content Include="js\public.js" />
+    <Content Include="UI\Admin\css\metisMenu.css" />
+    <Content Include="UI\Admin\css\sb-admin-2.css" />
+    <Content Include="UI\Admin\default.aspx" />
+    <Content Include="UI\Admin\editCourse.aspx" />
+    <Content Include="UI\Admin\js\metisMenu.js" />
+    <Content Include="UI\Admin\js\sb-admin-2.js" />
     <Content Include="UI\course.aspx" />
     <Content Include="UI\default.aspx" />
     <Content Include="UI\Index.aspx" />
     <Content Include="UI\publicHandler.aspx" />
     <Content Include="UI\template.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Admin\adminMaster.Master.cs">
+      <DependentUpon>adminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Admin\adminMaster.Master.designer.cs">
+      <DependentUpon>adminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Admin\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Admin\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Admin\editCourse.aspx.cs">
+      <DependentUpon>editCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Admin\editCourse.aspx.designer.cs">
+      <DependentUpon>editCourse.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UI\course.aspx.cs">
       <DependentUpon>course.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -165,12 +195,23 @@
     <Content Include="font-awesome\scss\_stacked.scss" />
     <Content Include="font-awesome\scss\_variables.scss" />
     <Content Include="css\bootstrap.css.map" />
+    <Content Include="UI\Admin\adminMaster.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj">
+      <Project>{ae0d3c38-8b92-4798-be55-91e6acb49f3a}</Project>
+      <Name>ClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBLayer\DBLayer.csproj">
+      <Project>{04cdd99e-b281-47ca-a061-5b2442f7a02a}</Project>
+      <Name>DBLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

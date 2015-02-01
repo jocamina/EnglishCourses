@@ -5,6 +5,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.Services;
+using ClassLibrary;
+using Newtonsoft.Json;
+using System.Data.SqlClient;
+using System.Configuration;
+using DBLayer;
 
 namespace Solution.UI
 {
@@ -20,5 +25,15 @@ namespace Solution.UI
         {            
             return "hello world";
         }
+
+        [WebMethod]
+        public static Course[] GetCourses()
+        {
+            DBCourse dbCourse = new DBCourse();
+
+            return dbCourse.GetCourses().ToArray();
+        }
+
+        
     }
 }

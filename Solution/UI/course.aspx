@@ -25,21 +25,15 @@
                 <div class="col-xs-12 col-md-8">
                     <h4>About the course</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus urna id felis ultrices, sit amet ultricies mauris feugiat. Mauris efficitur cursus purus id placerat. Aenean tempor molestie consequat. Duis sit amet lacinia purus, ut condimentum lectus. Proin condimentum libero eget erat vulputate cursus. Proin mattis ac mi a imperdiet. Phasellus tincidunt, sem quis lobortis rutrum</p>
-                </div>
-                <div class="col-xs-12 col-md-4">                
-                </div>
-                <div class="col-xs-12 col-md-8">
                     <h4>Levels</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus urna id felis ultrices, sit amet ultricies mauris feugiat. Mauris efficitur cursus purus id placerat. Aenean tempor molestie consequat. Duis sit amet lacinia purus, ut condimentum lectus. Proin condimentum libero eget erat vulputate cursus. Proin mattis ac mi a imperdiet. Phasellus tincidunt, sem quis lobortis rutrum</p>
-                </div>
-                <div class="col-xs-12 col-md-4">
-                </div>
-                <div class="col-xs-12 col-md-8">
                     <h4>Course format</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus urna id felis ultrices, sit amet ultricies mauris feugiat. Mauris efficitur cursus purus id placerat. Aenean tempor molestie consequat. Duis sit amet lacinia purus, ut condimentum lectus. Proin condimentum libero eget erat vulputate cursus. Proin mattis ac mi a imperdiet. Phasellus tincidunt, sem quis lobortis rutrum</p>
                 </div>
                 <div class="col-xs-12 col-md-4">                
-                </div>
+                    <h4>Instructors</h4>
+
+                </div>                
             </div>
         </div>
     </div>

@@ -3,25 +3,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script type="text/javascript">
         $(document).ready(function () {
-            $('.course-title').click(function () {
-                var params = { parameterX: 'hello from js side' };
-                var method = "GetData";
-
-                publicCallBack(method, params,
-                     function (response) {
-                         var names = response.d;
-                         alert(names);
-                     });
-
-                var person = {
-                    firstName: "Christophe",
-                    lastName: "Coenraets",
-                    blogURL: "http://coenraets.org"
-                };
-                var template = "<h1>{{firstName}} {{lastName}}</h1>Blog: {{blogURL}}";
-                var html = Mustache.to_html(template, person);
-                //$('#test').html(html);
-            });
+            var page = new DefaultPage();
+            page.renderCourses();
         });
     </script>
 </asp:Content>
@@ -52,7 +35,7 @@
     <!-- Courses section-->
     <section id="courses">
         <div class="container-fluid courses-container">
-            <div class="row">
+            <div id="row" class="row"> <!--
               <div class="col-xs-6 col-md-4 course-wrapper">
                 <a href="course.aspx" class="">
                     <img src="../img/courses/course2.png" class="img-responsive center-block course img-rounded" alt="course image"/>
@@ -116,6 +99,8 @@
                 <span class="course-title">Course title</span></br>
                 <span class="course-available">Always available</span>                  
               </div>
+
+                -->
              
             </div>
         </div>

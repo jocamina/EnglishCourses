@@ -4,3 +4,8 @@ C:\Users\Pepe\Documents\GitHub\EnglishCourses\Solution\bin\Solution.pdb
 C:\Users\Pepe\Documents\GitHub\EnglishCourses\Solution\obj\Debug\Solution.csprojResolveAssemblyReference.cache
 C:\Users\Pepe\Documents\GitHub\EnglishCourses\Solution\obj\Debug\Solution.dll
 C:\Users\Pepe\Documents\GitHub\EnglishCourses\Solution\obj\Debug\Solution.pdb
+C:\Users\Pepe\Documents\GitHub\EnglishCourses\Solution\bin\ClassLibrary.dll
+C:\Users\Pepe\Documents\GitHub\EnglishCourses\Solution\bin\Newtonsoft.Json.dll
+C:\Users\Pepe\Documents\GitHub\EnglishCourses\Solution\bin\ClassLibrary.pdb
+C:\Users\Pepe\Documents\GitHub\EnglishCourses\Solution\bin\DBLayer.dll
+C:\Users\Pepe\Documents\GitHub\EnglishCourses\Solution\bin\DBLayer.pdb
